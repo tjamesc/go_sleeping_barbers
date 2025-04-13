@@ -1,5 +1,6 @@
-Thomas Carriero - 730510525
-Minjae Kung - 730570794
+# Sleeping Barber Problem in Go
+
+#### Thomas Carriero - 730510525 | Minjae Kung - 730570794
 
 **Customer Goroutine:** Each customer is created at random intervals. They send a request to the receptionist, who checks if the waiting room has space. If accepted, the customer waits until the barber closes their cutDone channel, indicating the haircut is done.
 
